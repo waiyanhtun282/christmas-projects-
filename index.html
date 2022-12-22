@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Projects</title>
+    <!-- meta Tags -->
+    <!-- Primary Meta Tags -->
+   
+    <meta name="title" content="Christmas Projects">
+    <meta name="description" content="
+    Christamas Projects with Tailwind CSS">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/">
+    <meta property="og:title" content="Christmas Projects">
+    <meta property="og:description" content="
+    Christamas Projects with Tailwind CSS">
+    <meta property="og:image" content="./Assets/img/fb.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/">
+    <meta property="twitter:title" content="Christmas Projects">
+    <meta property="twitter:description" content="
+    Christamas Projects with Tailwind CSS">
+    <meta property="twitter:image" content="./Assets/img/fb.png">
+
+    <link rel="icon" href="./Assets/img/logo.png">
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- <link rel="stylesheet" href="input.css" /> -->
+  
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap" rel="stylesheet">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    
+  </head>
+  <body class="bg-[#fff]">
+    <!-- Navbar -->
+    <div   class="bg-transparent   lg:px-24 md:px-0 animate__animated nav-control px-5  z-40 ">
+      <div class="container mx-auto  ">
+        <div   class="flex justify-between items-center p-6 ">
+          <div class="flex items-center space-x-2">
+            <img src="./Assets/img/favicon.png" alt="" class="" />
+             <span class="text-[20px] font-medium">Christmas</span>
+          </div>
+
+          <div id="mobile-slide" class="md:bg-transparent md:w-auto w-full fixed md:static top-0 -left-full h-screen md:h-auto bg-slate-100 flex   justify-center  items-center duration-300 z-50">
+            <div id="mobile-slide-close" class="md:hidden  absolute top-3 left-5 w-10 h-10 border-2 flex items-center justify-center rounded-full">
+              <i class="fa-solid fa-xmark fa-2"></i>
+            </div>
+            <ul class="flex md:space-x-10 flex-col md:flex-row space-y-5 md:space-y-0">
+              <li>
+                <a class="font-semibold text-[18px] mobile-slide-closed  hover:text-rose-500 duration-200" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="font-semibold text-[18px] mobile-slide-closed hover:text-rose-500 duration-200" href="#celebrate"
+                  >Celebrate</a
+                >
+              </li>
+              <li>
+                <a class="font-semibold text-[18px] mobile-slide-closed hover:text-rose-500 duration-200" href="#gifts"
+                  >Gifts</a
+                >
+              </li>
+              <li>
+                <a class="font-semibold text-[18px] mobile-slide-closed hover:text-rose-500 duration-200" href="#new"
+                  >New</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class=" md:hidden flex mobile-menu">
+            <i class="fa-solid fa-bars-staggered fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="lg:px-24 md:px-0 px-5">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-center items-center py-16">
+          <div class="w-[350px] md:w-[480px] mr-3">
+            <img src="./Assets/img/home.png" alt="" class="w-auto headline" />
+          </div>
+          <div class="space-y-8 mt-5">
+            <div class="max-w-md space-y-3   text-center md:text-start ">
+              <h1 class="text-[32px] md:text-[40px]    font-semibold max-w-xs mx-auto md:max-w-none headline">
+                Merry Christmas and Happy New Year!
+              </h1>
+              <p class="text-slate-700 text-[17px] px-5 md:px-0 headline">
+                Christmas and a new year is about to begin, all good wishes and
+                successes.
+              </p>
+            </div>
+            <div class="md:text-left text-center">
+              <button
+                class="hover:bg-rose-600 px-8 py-4 bg-[#dc3845] text-[#fff] rounded-[30px] text-[18px] headline font-medium "
+               >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="select" class="md:mt-10 mt-5">
+          <div class="w-sm flex justify-center text-center">
+            <h1 class="md:text-3xl text-2xl font-semibold headline">
+              Start Giving This <br />
+              Christmas
+            </h1>
+          </div>
+          <div class="flex flex-col md:flex-row justify-center items-center md:space-x-10 ">
+            <div class="text-center md:p-10 p-6">
+              <div class="flex justify-center">
+                <img
+                  src="./Assets/img/giving1.png"
+                  alt=""
+                  class="w-32 hover:translate-y-[-10px] duration-300 headline"
+                />
+              </div>
+              <div class="space-y-3">
+                <h1 class="text-2xl font-semibold headline">Surprise gifts</h1>
+                <p class="text-slate-600 max-w-[150px] headline">
+                  They are the best gifts there is.
+                </p>
+              </div>
+            </div>
+
+            <div class="text-center md:p-10 p-6">
+              <div class="flex justify-center">
+                <img
+                  src="./Assets/img/giving2.png"
+                  alt=""
+                  class="w-32 hover:translate-y-[-10px] duration-300 headline"
+                />
+              </div>
+              <div class="space-y-3">
+                <h1 class="text-2xl font-semibold headline">Ornaments</h1>
+                <p class="text-slate-600 max-w-[150px] headline">
+                  Give a moment to decorate.
+                </p>
+              </div>
+            </div>
+
+            <div class="text-center md:p-10 p-6">
+              <div class="flex justify-center">
+                <img
+                  src="./Assets/img/giving3.png"
+                  alt=""
+                  class="w-32 hover:translate-y-[-10px] duration-300 headline"
+                />
+              </div>
+              <div class="space-y-3">
+                <h1 class="text-2xl font-semibold headline">Lots of love</h1>
+                <p class="text-slate-600 max-w-[150px] headline">
+                  Give away feelings that last forever.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- celebrate -->
+    <div id="celebrate" class="py-12 md:py-16 lg:px-24  px-5">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-evenly items-center">
+          <div class="space-y-8">
+            <div class="max-w-sm space-y-3 md:text-left text-center">
+              <h1 class="md:text-3xl text-2xl font-semibold max-w-[200px] md:max-w-none mx-auto headline">
+                Celebrate With A Lot Of Love
+              </h1>
+              <p class="text-slate-600 text-[18px] px-5 md:px-0 headline">
+                In this holidays, celebrate with much love and peace, offering
+                many blessings to our loved ones, friends and neighbors, wishing
+                them a good Christmas message.
+              </p>
+            </div>
+            <div class="  text-center">
+              <button
+                class="hover:bg-rose-600 bg-[#dc3845] px-10 py-4 text-[#fff] md:text-[20px] text-[17px] rounded-[30px] headline"
+              >
+                Send Good Wishes
+              </button>
+            </div>
+          </div>
+          <div class="md:w-[450px] w-64">
+            <img src="./Assets/img/celebrate.png" alt="" class="w-auto headline" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gifts -->
+    <div id="gifts" class="md:py-20 px-5">
+      <div class="container mx-auto">
+        <h1 class="font-semibold text-3xl text-center py-20 headline">Share A Gift</h1>
+        <div class="flex flex-col gap-10 px-5 md:px-0">
+         <div class=" grid md:grid-cols-3 grid-cols-2 mx-auto gap-10">
+            <div class="bg-[#fff] p-6 rounded-2xl shadow-lg  w-auto headline">
+              <div class="flex justify-end">
+                <i class="fa-solid fa-heart text-rose-600"></i>
+              </div>
+              <div class=" ">
+                <img
+                  src="./Assets/img/gift1.png"
+                  alt=""
+                  class="w-36 hover:translate-y-[-10px] duration-300 space-y-5"
+                />
+              </div>
+              <div class="space-x-2">
+                <h1 class="text-3xl font-bold">$15</h1>
+                <p class="text-slate-600 text-[18px] text-base">Gingerbread</p>
+              </div>
+            </div>
+             
+            <div class="bg-[#fff] p-6 rounded-2xl shadow-lg  w-auto headline">
+              <div class="flex justify-end">
+                <i class="fa-solid fa-heart text-rose-600"></i>
+              </div>
+              <div class="">
+                <img
+                  src="./Assets/img/gift2.png"
+                  alt=""
+                  class="w-36 hover:translate-y-[-10px] duration-300 space-y-5"
+                />
+              </div>
+              <div class="space-x-2">
+                <h1 class="text-3xl font-bold">$22</h1>
+                <p class="text-slate-600 text-[18px] text-base">
+                  Santa Claus Hat
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#fff] p-6 rounded-2xl shadow-lg  w-auto headline">
+              <div class="flex justify-end">
+                <i class="fa-solid fa-heart text-rose-600"></i>
+              </div>
+              <div class="">
+                <img
+                  src="./Assets/img/gift3.png"
+                  alt=""
+                  class="w-36 hover:translate-y-[-10px] duration-300 space-y-5"
+                />
+              </div>
+              <div class="space-x-2">
+                <h1 class="text-3xl font-bold">$48</h1>
+                <p class="text-slate-600 text-[18px] text-base">
+                  Christmas Tree
+                </p>
+              </div>
+          </div>
+            <div class="bg-[#fff] p-6 rounded-2xl shadow-lg  w-auto headline">
+              <div class="flex justify-end">
+                <i class="fa-solid fa-heart text-rose-600"></i>
+              </div>
+              <div class=" ">
+                <img
+                  src="./Assets/img/gift4.png"
+                  alt=""
+                  class="w-36 hover:translate-y-[-10px] duration-300 space-y-5"
+                />
+              </div>
+              <div class="space-x-2">
+                <h1 class="text-3xl font-bold">$35</h1>
+                <p class="text-slate-600 text-[18px] text-base">Snowman</p>
+              </div>
+            </div>
+            <div class="bg-[#fff] p-6 rounded-2xl shadow-lg  w-auto headline ">
+              <div class="flex justify-end">
+                <i class="fa-solid fa-heart text-rose-600"></i>
+              </div>
+              <div class=" ">
+                <img
+                  src="./Assets/img/gift5.png"
+                  alt=""
+                  class="w-36 hover:translate-y-[-10px] duration-300 space-y-5"
+                />
+              </div>
+              <div class="space-x-2">
+                <h1 class="text-3xl font-bold">$12</h1>
+                <p class="text-slate-600 text-[18px] text-base">Candy Stick</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Gits -->
+    <div id="new" class="lg:px-24 md:px-0">
+      <div class="container mx-auto">
+        <h1 class="font-semibold text-3xl text-center py-24 headline">New Gits</h1>
+        <div class="py-5 ">
+          
+      <div class=" grid md:grid-cols-3 gap-10 justify-center items-center ">
+        <div class="bg-[#fff] shadow-lg w-[250px]   overflow-hidden rounded-lg headline ">
+          <div class="bg-[#dc3845] gifts flex justify-center p-5 mb-8">
+            <img
+              src="./Assets/img/new4.png"
+              alt=""
+              class="w-36 hover:translate-y-[-10px] duration-300"
+            />
+          </div>
+
+          <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-3xl">$15</h1>
+            <p class="text-slate-600 text-[20px]">Christmas Wreath</p>
+          </div>
+          <div class="flex justify-end mt-3">
+            <i
+              class="fa-solid fa-heart fa-1x p-3 rounded-xl bg-[#dc3845] text-white"
+            ></i>
+          </div>
+        </div>
+
+        <div class="bg-[#fff] shadow-lg w-[250px]   overflow-hidden rounded-lg headline">
+          <div class="bg-[#dc3845] gifts flex justify-center p-5 mb-8">
+            <img
+              src="./Assets/img/new3.png"
+              alt=""
+              class="w-36 hover:translate-y-[-10px] duration-300"
+            />
+          </div>
+
+          <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-3xl">$95</h1>
+            <p class="text-slate-600 text-[20px]">Reindeer</p>
+          </div>
+          <div class="flex justify-end mt-3">
+            <i
+              class="fa-solid fa-heart fa-1x p-3 rounded-xl bg-[#dc3845] text-white"
+            ></i>
+          </div>
+        </div>
+
+        <div class="bg-[#fff] shadow-lg w-[250px]   overflow-hidden rounded-lg headline">
+          <div class="bg-[#dc3845] gifts flex justify-center p-5 mb-8">
+            <img
+              src="./Assets/img/new2.png"
+              alt=""
+              class="w-36 hover:translate-y-[-10px] duration-300"
+            />
+          </div>
+
+          <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-3xl">$20</h1>
+            <p class="text-slate-600 text-[20px]">Snow Globe</p>
+          </div>
+          <div class="flex justify-end mt-3">
+            <i
+              class="fa-solid fa-heart fa-1x p-3 rounded-xl bg-[#dc3845] text-white"
+            ></i>
+          </div>
+        </div>
+       
+
+       
+          <div class="bg-[#fff] shadow-lg w-[250px]   overflow-hidden rounded-lg headline">
+            <div class="bg-[#dc3845] gifts flex justify-center p-5 mb-8">
+              <img
+                src="./Assets/img/new1.png"
+                alt=""
+                class="w-36 hover:translate-y-[-10px] duration-300"
+              />
+            </div>
+
+            <div class="flex flex-col items-center">
+              <h1 class="font-semibold text-3xl">$75</h1>
+              <p class="text-slate-600 text-[20px]">Sledge</p>
+            </div>
+            <div class="flex justify-end mt-3">
+              <i
+                class="fa-solid fa-heart fa-1x p-3 rounded-xl bg-[#dc3845] text-white"
+              ></i>
+            </div>
+          </div>
+
+          <div class="bg-[#fff] shadow-lg w-[250px]   overflow-hidden rounded-lg headline">
+            <div class="bg-[#dc3845] gifts flex justify-center p-5 mb-8">
+              <img
+                src="./Assets/img/new4.png"
+                alt=""
+                class="w-36 hover:translate-y-[-10px] duration-300"
+              />
+            </div>
+
+            <div class="flex flex-col items-center">
+              <h1 class="font-semibold text-3xl">$15</h1>
+              <p class="text-slate-600 text-[20px]">Christmas Wreath</p>
+            </div>
+            <div class="flex justify-end mt-3">
+              <i
+                class="fa-solid fa-heart fa-1x p-3 rounded-xl bg-[#dc3845] text-white"
+              ></i>
+            </div>
+          </div>
+
+          <div class="bg-[#fff] shadow-lg w-[250px]   overflow-hidden rounded-lg headline">
+            <div class="bg-[#dc3845] gifts flex justify-center p-5 mb-8">
+              <img
+                src="./Assets/img/new3.png"
+                alt=""
+                class="w-36 hover:translate-y-[-10px] duration-300"
+              />
+            </div>
+
+            <div class="flex flex-col items-center">
+              <h1 class="font-semibold text-3xl">$95</h1>
+              <p class="text-slate-600 text-[20px]">Reindeer</p>
+            </div>
+            <div class="flex justify-end mt-3">
+              <i
+                class="fa-solid fa-heart fa-1x p-3 rounded-xl bg-[#dc3845] text-white"
+              ></i>
+            </div>
+          </div>
+      
+      </div> 
+          
+        </div>
+
+        <div class=" my-20 px-8 ">
+          <div class="bg-[#dc3845] md:w-full w-auto p-10 rounded-3xl px=">
+         <div class=" flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0">
+          <div class=" max-w-sm space-y-5">
+            <h1 class=" text-white md:text-5xl text-3xl font-semibold max-w-md headline">
+              Send Good 
+              Wishes!
+            </h1>
+            <input type="text" class=" px-5 py-3 outline-none rounded-[30px] text-[17px] shadow-lg w-full md:w-auto headline" placeholder="Write your message">
+            <button class=" bg-slate-900  text-white text-[20px] block px-5 py-3 rounded-[30px] font-semibold shadow-lg w-full md:w-auto headline">Send Message</button>
+          </div>
+          <div class="">
+            <img src="./Assets/img/message.png" alt="" class=" md:w-96 w-36 headline">
+          </div>
+         </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="lg:px-24 md:px-0 px-10 py-12 ">
+      <div class="container mx-auto">
+       <div class=" flex flex-col md:flex-row justify-between space-y-5 md:space-y-0">
+        <div class=" md:space-y-10">
+          <div class=" space-y-3">
+            <div class=" flex   items-center headline">
+              <img src="./Assets/img/logo.png" alt="" class=" w-10">
+              <h1 class=" font-medium text-[20px] text-slate-600">Christmas</h1>
+            </div>
+            <p class="text-slate-600 text-[18px] max-w-sm headline">
+              This Christmas give
+               a lot of love
+            </p>
+          </div>
+          <div class=" md:my-10 lg:justify-center flex justify-end">
+            <img src="./Assets/img/footer1.png" alt="" class=" w-28 headline">
+          </div>
+        </div>
+
+      
+        <div class=" md:space-y-3">
+          <h1 class=" md:text-2xl text-[20px] font-medium headline">Our Services</h1>
+          <ul class=" space-y-3">
+            <li class=" md:text-[18px] hover:text-slate-800 cursor-pointer hover:translate-y-[-3px] duration-300 text-slate-600 headline">Pricing</li>
+            <li class=" md:text-[18px] hover:text-slate-800 cursor-pointer hover:translate-y-[-3px] duration-300 text-slate-600 headline">Discounts</li>
+            <li class=" md:text-[18px] hover:text-slate-800 cursor-pointer hover:translate-y-[-3px] duration-300 text-slate-600 headline">Shipping mode</li>
+          </ul>
+        </div>
+
+        <div class=" md:space-y-3">
+          <h1 class=" md:text-2xl text-[20px] font-medium headline ">Support</h1>
+          <ul class=" space-y-3 ">
+            <li class=" md:text-[18px]  hover:text-slate-800 cursor-pointer hover:translate-y-[-3px] duration-300 text-slate-600 headline">FAQs</li>
+            <li class=" md:text-[18px]  hover:text-slate-800 cursor-pointer hover:translate-y-[-3px] duration-300 text-slate-600 headline">Support center</li>
+            <li class=" md:text-[18px]  hover:text-slate-800 cursor-pointer hover:translate-y-[-3px] duration-300 text-slate-600 headline"> Contact Us</li>
+          </ul>
+        </div>
+
+        <div class=" space-y-3 relative">
+          <h1 class="lg:text-2xl text-[20px]  font-medium headline">Available On</h1>
+          <img src="./Assets/img/aviable1.png" alt="" class="w-20 headline">
+          <img src="./Assets/img/aviable2.png" alt="" class="w-20 headline">
+          <div class=" flex  justify-end items-end absolute lg:top-10 -top-20 -right-14">
+            <img src="./Assets/img/footer2.png" alt="" class=" w-28 translate-x-5 headline">
+          </div>
+        </div>
+       </div>
+       
+       <div class=" text-center mt-6">
+        <h1 class=" text-slate-600 headline">&copy;2022 All right reserved</h1>
+       </div>
+      </div>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./Assets/main.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="../node_modules/swiper/swiper-bundle.min.js"></script> -->
+  </body>
+</html>
